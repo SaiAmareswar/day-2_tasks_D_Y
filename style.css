@@ -1,0 +1,133 @@
+/* ================== global ================= */
+h1 {
+  text-align: center;
+}
+p {
+  background-color: yellow;
+  color: black;
+}
+button {
+  cursor: pointer;
+}
+/* ==================== Task - 8 ======================= */
+.task8 {
+  max-width: 300px;
+  margin: auto;
+  border: 2px solid rgba(37, 36, 36, 0.877);
+}
+.task8 p {
+  margin: 40px;
+}
+/* ================= Task - 9 ========================== */
+.task9 {
+  max-width: 300px;
+  margin: auto;
+  border: 2px solid rgba(37, 36, 36, 0.877);
+  padding: 20px;
+}
+.task9 p {
+  padding: 20px;
+}
+/* =================== Task - 10 ========================== */
+.task10 {
+  max-width: 600px;
+  height: 350px;
+  margin: auto;
+  border: 2px solid grey;
+  border-radius: 12px 0 0 12px;
+  display: flex;
+}
+.all-content {
+  max-height: 100%;
+  overflow: auto;
+}
+.content {
+  padding: 1px 16px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 2px 0 0 1px;
+  width: 200%;
+  background-color: #f1f1f1;
+  border-radius: 12px 0 0 12px;
+}
+li {
+  border-radius: 12px 0 0 12px;
+  background: linear-gradient(to right, yellow 90%, black 10%);
+  margin-top: 5px;
+}
+li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+li a:hover {
+  background: linear-gradient(to right, black 90%, yellow 10%);
+  border-radius: 12px 0 0 12px;
+  color: white;
+}
+
+/* =================== Task - 11 ========================== */
+.task11 {
+  max-width: 400px;
+  margin: auto;
+}
+.task11 form img {
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+}
+.img {
+  text-align: center;
+}
+.input {
+  display: flex;
+  flex-direction: column;
+}
+input {
+  margin-top: 5px;
+  padding: 10px 10px;
+  border-radius: 3px;
+  border: 1px solid rgb(128, 128, 128);
+}
+.login-btn {
+  border: none;
+  border-radius: 3px;
+  width: 380px;
+  padding: 10px 0px;
+  background-color: rgba(21, 182, 21, 0.855);
+  box-sizing: border-box;
+}
+.pad {
+  margin: 10px;
+}
+.checkbox {
+  display: flex;
+  align-items: center;
+  margin-top: 0%;
+}
+.can {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgba(207, 207, 207, 0.566);
+}
+.cancel {
+  padding: 10px 20px;
+  border-radius: 3px;
+  margin-left: 5px;
+  border: none;
+  background-color: rgb(255, 17, 0);
+}
+.can p {
+  background: none;
+  margin-right: 5px;
+}
+.can p a {
+  color: black;
+}
+.can p span {
+  text-decoration: underline;
+}
